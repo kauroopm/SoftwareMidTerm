@@ -53,7 +53,8 @@ public class PasswordValidator {
         userCount++;
         System.out.println("New User Added");
         System.out.println("UserName: " + userName);
-        System.out.println("Password: just kidding can't show password");
+        System.out.println("Password: You have saved your password, but for security reason we can't show password here.");
+        System.out.println("Now you can play Uno Online by using this saved username and password");
     }//end run method
 
 }
