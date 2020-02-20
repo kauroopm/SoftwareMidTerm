@@ -5,8 +5,6 @@
  */
 package midtermreviewcodeforpartc;
 
-import java.util.Scanner;
-
 /**
  * The signIn page for UnoOnline. Takes in a user name and password and then
  * validates the password before creating a new user in the list of possible
@@ -26,6 +24,5 @@ public class UnoOnline {
         PasswordValidator pass = new PasswordValidator();
         pass.run();
     }
-    
 
 }//end class
